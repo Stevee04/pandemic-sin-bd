@@ -1,0 +1,59 @@
+    Información del Juego:
+
+    El programa es una simulación sencilla del juego de mesa Pandemic.
+    En esta versión las reglas son personalizadas por nosotros, 
+    a continuación dejamos las normas y anotaciones.
+
+    Acciones que tiene el usuario:
+
+    En el juego, como usuario, se pueden hacer dos movimientos distintos
+    y se tendrán un total de cuatro acciones por turno.
+
+    Las acciones disponibles son:
+
+	1.- Curar un punto de enfermedad de una ciudad.
+
+	2.- Realizar un porcentaje de una vacuna ( cuatro a realizar ),
+	    al llegar al 100% de una podrás curar una ciudad entera del
+	    tipo de enfermedad tenga las cargas de enfermedad que tenga
+	    sin importar las cargas de enfermedad que tenga esta.
+	
+    Acciones automáticas:
+
+	1.- A cada ronda se infectarán aleatoriamente
+	    X(depende de la dificultad) ciudades.
+
+	2.- Si una ciudad tiene cuatro puntos de enfermedad,
+	    esta crea un brote e infecta las ciudades colindantes
+	    a esta con un punto	de enfermedad.
+
+    Cambios que hay entre las dificultades:
+
+	Fácil:
+		Ciudades Infectadas Iniciales: 2
+		Ciudades que se Infectan por ronda: 2
+		Enfermedades en total en el mapa: 40 para perder
+		Número de brotes posibles: 15
+
+	Medio:
+		Ciudades Infectadas Iniciales: 5
+		Ciudades que se Infectan por ronda: 4
+		Enfermedades en total en el mapa: 30 para perder
+		Número de brotes posibles: 8
+
+	Difícil:
+		Ciudades Infectadas Iniciales: 9
+		Ciudades que se Infectan por ronda: 6
+		Enfermedades en total en el mapa: 30 para perder
+		Número de brotes posibles: 8
+
+    Finalización del juego:
+
+	1.- Se completa la investigación de las cuatro vacunas.
+
+	2.- Haya el número total de enfermedades en el mapa acorde
+	    a la dificultad elegida.
+
+	3.- Haya el número total de brotes en el mapa acorde de la
+	    dificultad elegida.
+	    
